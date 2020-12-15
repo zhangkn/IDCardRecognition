@@ -5,9 +5,6 @@
 
 可自动快速读出身份证上的信息（姓名、性别、民族、住址、身份证号码）并截取到身份证图像
 
-![IDAuthViewController-开始验证身份证](https://github.com/zhongfenglee/IDCardRecognition/blob/master/Screenshot/1.PNG?raw=true)
-![AVCaptureViewController-拍摄界面](https://github.com/zhongfenglee/IDCardRecognition/blob/master/Screenshot/2.PNG?raw=true)
-![IDInfoViewController-身份证信息界面](https://github.com/zhongfenglee/IDCardRecognition/blob/master/Screenshot/3.PNG?raw=true)
 ## 原理
 经实践发现，只要身份证号码处于摄像头预览图层中时，即不用完全对准身份证也可以读取到身份证号码，但此时截取到的身份证图像并不完整。
 
@@ -29,11 +26,6 @@ Privacy - Photo Library Usage Description       是否允许访问相册
 
 4、运行程序，可能会报 ENABLE_BITCODE 错误：
 
-![ENABLE_BITCODE Error](https://github.com/zhongfenglee/IDCardRecognition/blob/master/Screenshot/ENABLE_BITCODE%20Error.png?raw=true)
-
-解决方法：
-
-![ENABLE_BITCODE Error 解决方法](https://github.com/zhongfenglee/IDCardRecognition/blob/master/Screenshot/ENABLE_BITCODE%20Error%20解决方法.png?raw=true)
 
 5、在你的项目中的相应处，首先：
 
@@ -47,11 +39,9 @@ Privacy - Photo Library Usage Description       是否允许访问相册
 
 6、大功告成，使用真机，Run! 😄 
 ## 特别鸣谢
-本Demo扫描身份证的代码参考自[mxl123/IDAndBankCard](https://github.com/mxl123/IDAndBankCard)，非常感谢[mxl123](https://github.com/mxl123)的开源，再次表示致谢和敬意！
 ## 联系我
 如果您觉得本Demo好用，请为我加星，非常感谢，🙏！&nbsp;如果您有什么疑问/建议，非常欢迎联系我，🙏！
 
-QQ/微信: 852354291&nbsp;&nbsp;&nbsp;&nbsp;Email: 852354291@qq.com
 
 Please Star Me, Follow Me, Thank You!😊
 # [IDCardRecognition](https://kunnan.blog.csdn.net/)
